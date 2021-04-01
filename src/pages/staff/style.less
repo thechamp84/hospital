@@ -1,0 +1,94 @@
+@import '../../../node_modules/antd/es/style/themes/default.less';
+
+.cardTitle {
+  margin: 0;
+  color: rgba(1, 73, 255, 1);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.formLabel {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+@media screen and (max-width: @screen-sm) {
+  .inviteCard {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: @screen-sm) {
+  .inviteCard {
+    width: 450px;
+    padding: 16px;
+  }
+}
+
+.countryCode {
+  width: 70px;
+}
+
+// forget password
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+  }
+
+  .icon {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    margin-top: 24px;
+    line-height: 22px;
+    text-align: left;
+
+    .register {
+      float: right;
+    }
+  }
+
+  :global {
+    .antd-pro-login-submit {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}
+
+.forgotPassForm {
+  max-width: 368px;
+}
+.forgotPasswordText {
+  color: @primary-color;
+  text-align: center;
+}
+.forgotSubmitButton {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.loginText{
+  font-weight: 600;
+  color: @primary-color;
+  font-size: 18px;
+}
+
+.cardBoder{
+  background-color: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.19) !important;
+}

@@ -1,0 +1,104 @@
+@import '~antd/es/style/themes/default.less';
+@import './montserat.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+@primary-color: '#517FDD';
+.ant-picker-panel .ant-picker-footer {
+  display: none !important;   
+}
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-btn {
+  font-weight: 500;
+
+}
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  // font-weight: 500;
+}
+.ant-form-item-label{
+  font-weight: 500;
+}
+.ant-table-cell{
+  font-size: 16px;
+  line-height: 22px;
+  color: #525A69;
+}
+.ant-input{
+  border-radius: 5px !important;
+}
+.ant-modal-body{
+  padding: 24px 24px 1px !important;
+}
+ul,
+ol {
+  list-style: none;
+}
+.tableHeading{
+  font-size: 20px;
+  line-height: 22px;
+  color: @primary-color;
+  font-weight: 500;
+}
+
+.ant-card{
+  border-radius: 7px !important;
+}
+
+.avatarImage{
+  width: 150px !important;
+  height: 60px !important;
+  border-radius: 5px !important;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_from": "antd-country-phone-input",
+  "_id": "antd-country-phone-input@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wM5SR2ITHgjO6GzUBCiDcc6UHkQkCkqajE7Onpmz+1qqEHru72z+ihY0RLJVJCiQf/0JIMGSJh16KibBy0poNw==",
+  "_location": "/antd-country-phone-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "antd-country-phone-input",
+    "name": "antd-country-phone-input",
+    "escapedName": "antd-country-phone-input",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/antd-country-phone-input/-/antd-country-phone-input-1.0.0.tgz",
+  "_shasum": "993350b09517b4f4a2dd453a5a2688727939d86b",
+  "_spec": "antd-country-phone-input",
+  "_where": "/home/kanzy/Documents/maktech/adminpanel_bawsala_company",
+  "author": {
+    "name": "wangsijie",
+    "email": "i@sijie.wang"
+  },
+  "bugs": {
+    "url": "https://github.com/wangsijie/antd-country-phone-input/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Country phone input component as standard Ant.Design form item",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@types/react": "^16.9.10",
+    "antd": "^4.5.2",
+    "cpx": "^1.5.0",
+    "cross-env": "^6.0.3",
+    "react": "^16.11.0",
+    "typescript": "^3.6.4"
+  },
+  "homepage": "https://github.com/wangsijie/antd-country-phone-input#readme",
+  "keywords": [
+    "antd",
+    "ant-design",
+    "country-code",
+    "phone"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "antd-country-phone-input",
+  "peerDependencies": {
+    "antd": "^4.5.2"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wangsijie/antd-country-phone-input.git"
+  },
+  "scripts": {
+    "build": "tsc && cpx \"src/**/*.css\" lib",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "lib/index.d.ts",
+  "version": "1.0.0"
+}
